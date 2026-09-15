@@ -1,0 +1,43 @@
+# Credentials and local environment settings
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated device data and reports
+output_files/
+report/
+yang_module_tree/
+test/
+*.log
+session_log*
+startup-config*.txt
+running-config*.txt
+
+# Private keys and credential containers
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Editor and operating-system files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
